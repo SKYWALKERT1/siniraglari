@@ -577,13 +577,13 @@ Bu proje eğitim amaçlıdır. Özgürce kullanabilir ve değiştirebilirsiniz.
 
 <div align="center">
 
-### ⭐ Projeyi Beğendiyseniz Yıldız Vermeyi Unutmayın!
+### Bu projeyle ilgil etkileşimlerinizi bekliyorum!
 
-**Yapıldı ❤️ ile PyTorch kullanılarak**
+**Yapıldı ile PyTorch kullanılarak**
 
 [⬆️ Yukarı Çık](#-cnn-convolutional-neural-networks---evrişimli-sinir-ağları-projesi)
 
-Made with ❤️ by a student learning Deep Learning
+Made with  by a student learning Deep Learning
 
 </div>
 # siniraglari
