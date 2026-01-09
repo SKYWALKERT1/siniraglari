@@ -478,16 +478,16 @@ Eğer model performansını daha da artırmak isterseniz:
 - Görüntü boyutunu küçültün (160 → 128)
 - Mixed Precision Training kullanın (otomatik aktif)
 
-###  Model Accuracy Düşük
+###  Model Accuracy Hedef'e göre düşük çıktı
 
-**Sorun**: Model %90'a ulaşamıyor
+**Sorun**: Model %90'a ulaşamıyor 89 a ulaşıyor aşağıdakilerden epoch arttırmanızı öneririm accuracy loss grafikleri zaten çok iyi durumda.
 
 **Çözüm**:
-- Daha fazla epoch eğitin (25 → 50)
-- Learning rate'i ayarlayın (0.002 → 0.001 veya 0.003)
-- Data augmentation'ı artırın
-- Transfer learning deneyin
-- Model mimarisini büyütün
+- Daha fazla epoch eğitin daha iyi bir şekilde öğrenmiş olur
+- Learning rate'i ayarlayın (0.002 → 0.001 veya 0.003) daha az adım ile daha rahat bir şekilde optimum noktaıy bulmanızı sağlar. 
+- Data augmentation'ı artırmayı deneyebilirsiniz
+- Transfer learning deneyebilirsiniz
+- Model mimarisini büyütebilirsiniz ama önermem katmanlar gayet düzgün bir şekilde oldu.
 
 ###  Veri Seti Bulunamadı
 
