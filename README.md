@@ -528,7 +528,6 @@ Bu proje eğitim amaçlıdır. İyileştirmeler yapmak isterseniz:
 
 ### Bu proje hakkında düşüncelerinizi bekliyorum Tavsiyelerede açığım.
 
-**Yapıldı ile PyTorch kullanılarak**
 
 
 
