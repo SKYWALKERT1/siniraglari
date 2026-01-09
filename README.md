@@ -18,7 +18,7 @@ Merhaba!  Bu proje, **PyTorch** kütüphanesi kullanılarak **Convolutional Neur
 
 Bu projede, **10 farklı hayvan sınıfını** (köpek, kedi, at, fil, kelebek, tavuk, inek, koyun, örümcek, sincap) ayırt edebilen bir model eğitiyoruz. Proje, başlangıç seviyesinden ileri seviyeye kadar herkesin anlayabileceği şekilde adım adım açıklanmıştır.
 
-### 🎯 Bu Projede Öğrenecekleriniz
+###  Bu Projede Öğrenecekleriniz
 
 | Konu | Açıklama |
 |------|----------|
@@ -31,7 +31,7 @@ Bu projede, **10 farklı hayvan sınıfını** (köpek, kedi, at, fil, kelebek, 
 
 ---
 
-## 📋 Proje Özellikleri
+##  Proje Özellikleri
 
 <div align="center">
 
@@ -70,7 +70,7 @@ Bu projede, **10 farklı hayvan sınıfını** (köpek, kedi, at, fil, kelebek, 
 | **Kaynak** | KaggleHub (otomatik indirme) |
 | **Train/Val Split** | %80 Eğitim, %20 Doğrulama |
 
-### 📈 Veri Dağılımı
+###  Veri Dağılımı
 
 ```
 Sınıf Başına Görüntü Sayıları:
@@ -108,7 +108,7 @@ Sınıf Başına Görüntü Sayıları:
 4. Sınıflandırma (Classifier): Sonuç kısmında klasik düzleştirme (flatten) yerine, parametre sayısını şişirmemek için Global Average Pooling kullandım; bu sayede elimizde 1x1x256 boyutunda temiz bir vektör kaldı. Bunu Tam Bağlı (Linear) katmana vererek nöron sayısını 128’e indirdim. Burada modelin veriye aşırı uyum sağlamasını önlemek için %50 oranında bir Dropout ekledim. En sonda da 10 farklı sınıfımız olduğu için çıkış katmanını 10 nörona bağlayarak mimariyi tamamladım.
 ```
 
-### 📐 Model Detayları
+### Model Detayları
 
 | Katman | Parametreler | Açıklama |
 |--------|--------------|----------|
@@ -120,15 +120,15 @@ Sınıf Başına Görüntü Sayıları:
 | **Fully Connected** | 2 katman | Sınıflandırma (256→128→10) - Son kararı veren katmanlar |
 | **Toplam Parametre** | **~1.18M** | Hafif ve hızlı model - GPU olmadan da çalışabilir |
 
-> 💡 **Öğrenci Notu:** Model oldukça hafif (1.18M parametre), bu sayede hem hızlı eğitiliyor hem de daha az bellek kullanıyor. `stride=2` kullanarak bazı Conv2d katmanlarında boyut azaltma yapıyoruz, bu da eğitimi hızlandırıyor.
+>  **Öğrenci Notu:** Model oldukça hafif (1.18M parametre), bu sayede hem hızlı eğitiliyor hem de daha az bellek kullanıyor. `stride=2` kullanarak bazı Conv2d katmanlarında boyut azaltma yapıyoruz, bu da eğitimi hızlandırıyor.
 
 ---
 
-## 🚀 Hızlı Başlangıç
+## Hızlı Başlangıç
 
-### 📦 1. Gereksinimler
+### 1. Gereksinimler
 
-#### Conda Environment (Önerilen) 🎯
+#### Conda Environment 
 
 Conda kullanmak daha kolay ve güvenilir. İşte adım adım:
 
@@ -218,7 +218,7 @@ jupyter lab
 2. **Kernel > Restart & Run All** ile tüm hücreleri sırayla çalıştırın
 3. Veya her hücreyi tek tek çalıştırabilirsiniz (öğrenmek için daha iyi!)
 
-> **İpucu:** İlk çalıştırmada veri seti indirilecek, bu biraz zaman alabilir. Sabırlı olun! 😊
+> **İpucu:** İlk çalıştırmada veri seti indirilicek beyaz bir histbar grafiği çıkıcak MB ya da GB ise orda o histbar grafiği yüklenirken görebilirsiniz. 
 
 ---
 
@@ -347,16 +347,16 @@ Model performans metriklerini gösterir. Accuracy, Loss, Precision, Recall gibi 
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
-📦 cnn-classification-project
+ cnn-classification-project
 │
-├── 📄 cnn_classification_project.ipynb  # Ana notebook (tüm kod)
-├── 📄 environment.yaml                  # Conda environment dosyası
-├── 📄 requirements.txt                   # Pip requirements
-├── 📄 README.md                          # Bu dosya (proje dokümantasyonu)
-├── 📄 .gitignore                         # Git ignore dosyası
+├── cnn_classification_project.ipynb  # Ana notebook (tüm kod)
+├── environment.yaml                  # Conda environment dosyası
+├──  requirements.txt                   # Pip requirements
+├── README.md                          # Bu dosya (proje dokümantasyonu)
+├── .gitignore                         # Git ignore dosyası
 │
 ├── 📁 fotolar/                           # Görselleştirme görselleri
 │   ├── train_validation_graphic.png
@@ -366,15 +366,15 @@ Model performans metriklerini gösterir. Accuracy, Loss, Precision, Recall gibi 
 │   ├── matrix_graphic.png
 │   └── metrics.png
 │
-├── 💾 best_model.pth                     # En iyi model (eğitim sonrası)
-└── 📊 Grafikler ve sonuçlar              # Notebook çıktıları
+├── best_model.pth                     # En iyi model (eğitim sonrası)
+└── Grafikler ve sonuçlar              # Notebook çıktıları
 ```
 
 ---
 
-## 🔄 GitHub'a Yükleme için  Git Bash Komutları
+## GitHub'a Yükleme için  Git Bash Komutları
 
-### 📤 İlk Kurulum Ayarlarını yapmak.
+### İlk Kurulum Ayarlarını yapmak.
 
 ```bash
 # 1. Git repository'sini başlat
@@ -384,7 +384,7 @@ git init
 git add .
 
 # 3. İlk commit
-git commit -m "🎉 Initial commit: CNN Classification Project"
+git commit -m " Initial commit: CNN Classification Project"
 
 # 4. GitHub repository'sine bağla (önce GitHub'da repo oluşturun!)
 git remote add origin https://github.com/kullanici_adi/cnn-project.git
@@ -393,14 +393,14 @@ git remote add origin https://github.com/kullanici_adi/cnn-project.git
 git push -u origin main
 ```
 
-### 🔄 Güncelleme
+###  Güncelleme
 
 ```bash
 # Değişiklikleri ekle
 git add .
 
 # Commit yap
-git commit -m "✨ Update: Model improvements"
+git commit -m " Update: Model improvements"
 
 # Push yap
 git push
