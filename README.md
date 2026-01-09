@@ -16,14 +16,14 @@
 
 Merhaba!  Bu proje, **PyTorch** kütüphanesi kullanılarak **Convolutional Neural Network (CNN)** ile görüntü sınıflandırma işlemini gerçekleştiren kapsamlı bir derin öğrenme projesidir. CNN'ler, özellikle görüntü işleme ve bilgisayarlı görü alanında yaygın olarak kullanılan derin öğrenme modelleridir.
 
-Bu projede, **10 farklı hayvan sınıfını** (köpek, kedi, at, fil, kelebek, tavuk, inek, koyun, örümcek, sincap) ayırt edebilen bir model eğitiyoruz. Proje, başlangıç seviyesinden ileri seviyeye kadar herkesin anlayabileceği şekilde adım adım açıklanmıştır.
+Bu projede, **10 farklı hayvan sınıfını** (köpek, kedi, at, fil, kelebek, tavuk, inek, koyun, örümcek, sincap) ayırt edebilen bir model eğitiyoruz. Proje, başlangıç seviyesinden ileri seviyeye kadar herkesin anlayabileceği şekilde adım adım açıkladım.
 
 ###  Bu Projede Öğrenecekleriniz
 
 | Konu | Açıklama |
 |------|----------|
-|  **CNN Mimarisi** | Evrişimli katmanların nasıl çalıştığını ve görüntülerden özellik çıkarma sürecini sinir katmanalarını daha iyi anlamış olacak ve  öğreneceksiniz |
-|  **PyTorch Kullanımı** | PyTorch ile model oluşturma, eğitme ve değerlendirme işlemlerini yapmayı öğreneceksiniz |
+|  **CNN Mimarisi** | Evrişimli katmanların nasıl çalıştığını ve görüntülerden özellik çıkarma sürecini sinir katmanlarını daha iyi anlamış olacak ve  öğreneceksiniz |
+|  **PyTorch Kullanımı** | PyTorch ile model oluşturma, eğitme ve değerlendirme işlemlerini yapmayı öğreneceksiniz Deep Learning de kullanılan makine kütüphanelerinden biridir. |
 |  **Veri Ön İşleme** | Görüntü verilerinin hazırlanması ve augmentation tekniklerini uygulayacaksınız |
 |  **Model Optimizasyonu** | Hız ve doğruluk dengesini sağlama tekniklerini öğreneceksiniz |
 |  **Model Değerlendirme** | Accuracy, Loss, Confusion Matrix gibi metriklerin nasıl hesaplandığını göreceksiniz |
